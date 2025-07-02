@@ -1,9 +1,9 @@
 import Keycloak from "keycloak-js";
 
 const keycloak = new Keycloak({
-    realm: "YEONJI",
-    url: "http://localhost:8888/",
-    clientId: "testuser01"
+    realm: "myservice",
+    url: "http://keycloak.local/",
+    clientId: "keycloak_test"
 });
 
 export default keycloak;
