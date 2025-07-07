@@ -49,7 +49,7 @@ const Header = () => {
                                     className="text-blue-800"
                                     onClick={() => keycloak.logout()}
                                 >
-                                    Logout ({keycloak.tokenParsed.preferred_username})
+                                    Logout ({keycloak.tokenParsed.name})
                                 </button>
                                 )}
                             </div>
